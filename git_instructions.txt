@@ -1,0 +1,41 @@
+git phrase: mygit123
+
+====================================================================================================================================
+SSH
+====================================================================================================================================
+
+git@github.com:SarathBodepudi/whitelotus.git
+create a new repository on the command line
+-----------------------------------------------
+echo "# whitelotus" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:SarathBodepudi/whitelotus.git
+git push -u origin master
+
+or push an existing repository from the command line
+----------------------------------------------------------
+git remote add origin git@github.com:SarathBodepudi/whitelotus.git
+git push -u origin master
+
+====================================================================================================================================
+HTTP:
+====================================================================================================================================
+
+
+https://github.com/SarathBodepudi/whitelotus.git
+
+create a new repository on the command line
+
+echo "# whitelotus" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/SarathBodepudi/whitelotus.git
+git push -u origin master
+
+push an existing repository from the command line
+ 
+git remote add origin https://github.com/SarathBodepudi/whitelotus.git
+git push -u origin master
